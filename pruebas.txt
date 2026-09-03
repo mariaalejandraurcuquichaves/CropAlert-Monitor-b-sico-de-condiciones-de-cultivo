@@ -1,0 +1,14 @@
+PRUEBAS DE FUNCIONAMIENTO — CropAlert
+=======================================
+
+PRUEBA 1: Valores Normales
+   Temp: 22°C | Humedad: 65% → Estado: Normal ✅
+
+PRUEBA 2: Valores en Atención
+   Temp: 13°C | Humedad: 45% → Estado: Atención ⚠️
+
+PRUEBA 3: Valores Críticos
+   Temp: 38°C | Humedad: 30% → Estado: Crítico 🚨
+
+PRUEBA 4: Valores Límite
+   Temp: 15°C = Normal | Temp: 14.9°C = Atención
